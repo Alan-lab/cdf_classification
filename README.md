@@ -3,14 +3,15 @@ classes = {0: 'cat', 1: 'dog', 2: 'flower'}
 
 In this project we use both Resnet and Self-attention layer for cdf-Classification.
 Specifically, For Resnet, we extract low level features from Convolutional Neural Network (CNN) trained on Dogcatflower_2(details show later).  
-We take inspiration from the Self-attention mechanism which is a prominent method in cv domain. We also use Grad-CAM algorithm to Visualize the gradient of the back propagation of the pretrain model to understand this network.
+We take inspiration from the Self-attention mechanism which is a prominent method in cv domain. 
+We also use Grad-CAM algorithm to Visualize the gradient of the back propagation of the pretrain model to understand this network.
 The code is released for academic research use only. For commercial use, please contact [lailanqing_charlie@163.com].
 
 ## Installation
 
 Clone this repo.
 ```bash
-git clone https://github.com/Alan-lab/cdf-Classification
+git clone https://github.com/Alan-lab/cdf_classification
 cd cdf-Classification/
 ```
 
@@ -31,17 +32,17 @@ key：oz7z
 ## Training New Models
 New models can be trained with the following commands.
 
-1. Prepare your own dataset like in this (https://github.com/Alan-lab/data/Dogcatflower_2).
+1. Prepare your own dataset like this (https://github.com/Alan-lab/data/Dogcatflower_2).
 
 2. Training:
 ```bash
 python main.py
 ```
-model.pth will be extrated in the folder `./cdf-Classification`. 
+model.pth will be extrated in the folder `./cdf_classification`. 
 If av_test_acc < 0.75, model.pth will not save(d2l.train_ch6).
 
 3.predict
-Prepare your valid dataset like in this (https://github.com/Alan-lab/data/catsdogsflowers/valid).
+Prepare your valid dataset like this (https://github.com/Alan-lab/data/catsdogsflowers/valid).
 ```bash
 python Predict/predict.py
 ```
@@ -51,12 +52,12 @@ valid cat acc 0.755, valid dog acc 0.735 valid flower acc 0.929
 
 4.Class Activation Map
 The response size of the feature map is mapped to the original image, allowing readers to understand the effect of the model more intuitively.
-Prepare your picture like in this (https://github.com/Alan-lab/data/Dogcatflower/test/flower/flower.1501.jpg).
+Prepare your picture like this (https://github.com/Alan-lab/data/Dogcatflower/test/flower/flower.1501.jpg).
 ```bash
 python Viewer/Grad_CAM.py
 ```
 
-5. More details can be found in [folder](https://github.com/Alan-lab/cdf-Classification).
+5. More details can be found in [folder](https://github.com/Alan-lab/cdf_classification).
 
 ## Acknowledgments
 This work is mainly supported by (https://courses.d2l.ai/zh-v2/) and CSDN.
