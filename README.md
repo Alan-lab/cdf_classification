@@ -42,7 +42,9 @@ New models can be trained with the following commands.
 python main.py
 ```
 model.pth will be extrated in the folder `./cdf_classification`. 
+```bash
 **If av_test_acc < 0.75, model.pth will not save(d2l.train_ch6).**
+```
 
 3.predict
 Prepare your valid dataset like this (https://github.com/Alan-lab/data/catsdogsflowers/valid).
