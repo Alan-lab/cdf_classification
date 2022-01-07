@@ -12,14 +12,14 @@ The code is released for academic research use only. For commercial use, please 
 Clone this repo.
 ```bash
 git clone https://github.com/Alan-lab/cdf_classification
-cd cdf-Classification/
+cd cdf_classification/
 ```
 
 This code requires pytorch, python3.7, cv2, d2l. Please install it.
 
 
 ## Dataset Preparation
-For cdf-Classification, the datasets must be downloaded beforehand. Please download them on the respective webpages.  Please cite them if you use the data. 
+For cdf_classification, the datasets must be downloaded beforehand. Please download them on the respective webpages.  Please cite them if you use the data. 
 
 **Preparing Cat and Dog Dataset**. The dataset can be downloaded [here](https://www.kaggle.com/tongpython/cat-and-dog). 
 **Preparing flower Dataset**. The dataset can be downloaded [here](https://www.kaggle.com/alxmamaev/flowers-recognition). 
@@ -47,7 +47,7 @@ Prepare your valid dataset like this (https://github.com/Alan-lab/data/catsdogsf
 python Predict/predict.py
 ```
 
-#Result in valid
+#The result of trained model in valid dataset
 valid cat acc 0.755, valid dog acc 0.735 valid flower acc 0.929
 
 4.Class Activation Map
