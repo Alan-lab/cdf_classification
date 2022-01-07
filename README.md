@@ -2,7 +2,7 @@
 classes = {0: 'cat', 1: 'dog', 2: 'flower'}
 
 In this project we use both Resnet and Self-attention layer for cdf-Classification.
-Specifically, For Resnet, we extract low level features from Convolutional Neural Network (CNN) trained on Dogcatflower_2(details show later).  
+Specifically, For Resnet, we extract low level features from Convolutional Neural Network (CNN) trained on Dogcatflower_2 dataset(details show later).  
 We take inspiration from the Self-attention mechanism which is a prominent method in cv domain. 
 We also use Grad-CAM algorithm to Visualize the gradient of the back propagation of the pretrain model to understand this network.
 The code is released for academic research use only. For commercial use, please contact [lailanqing_charlie@163.com].
