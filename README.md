@@ -42,9 +42,9 @@ New models can be trained with the following commands.
 python main.py
 ```
 model.pth will be extrated in the folder `./cdf_classification`. 
-```bash
+
 **If av_test_acc < 0.75, model.pth will not save(d2l.train_ch6).**
-```
+
 
 3.predict
 Prepare your valid dataset like this (https://github.com/Alan-lab/data/catsdogsflowers/valid).
@@ -53,7 +53,9 @@ python Predict/predict.py
 ```
 
 #The result of trained model in valid dataset
-**valid cat acc 0.755, valid dog acc 0.735 valid flower acc 0.929**
+```bash
+valid cat acc 0.755, valid dog acc 0.735 valid flower acc 0.929
+```
 
 4.Class Activation Map
 The response size of the feature map is mapped to the original image, allowing readers to understand the effect of the model more intuitively.
