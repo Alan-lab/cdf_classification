@@ -27,8 +27,7 @@ For cdf_classification, the datasets must be downloaded beforehand. Please downl
 
 You can also download Dogcatflower_2 dataset(made from above datasets) use the following link:
 
-Link：https://pan.baidu.com/s/1ZcP_isbbRQBq9BHU6p_VtQ 
-key：oz7z 
+Link:https://pan.baidu.com/s/1ZcP_isbbRQBq9BHU6p_VtQ  key:oz7z 
 
 
 ## Training New Models
