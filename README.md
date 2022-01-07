@@ -22,7 +22,9 @@ This code requires pytorch, python3.7, cv2, d2l. Please install it.
 For cdf_classification, the datasets must be downloaded beforehand. Please download them on the respective webpages.  Please cite them if you use the data. 
 
 **Preparing Cat and Dog Dataset**. The dataset can be downloaded [here](https://www.kaggle.com/tongpython/cat-and-dog). 
+
 **Preparing flower Dataset**. The dataset can be downloaded [here](https://www.kaggle.com/alxmamaev/flowers-recognition). 
+
 You can also download Dogcatflower_2 dataset(made from above datasets) use the following link:
 
 Link：https://pan.baidu.com/s/1ZcP_isbbRQBq9BHU6p_VtQ 
@@ -39,7 +41,7 @@ New models can be trained with the following commands.
 python main.py
 ```
 model.pth will be extrated in the folder `./cdf_classification`. 
-If av_test_acc < 0.75, model.pth will not save(d2l.train_ch6).
+**If av_test_acc < 0.75, model.pth will not save(d2l.train_ch6).**
 
 3.predict
 Prepare your valid dataset like this (https://github.com/Alan-lab/data/catsdogsflowers/valid).
@@ -48,7 +50,7 @@ python Predict/predict.py
 ```
 
 #The result of trained model in valid dataset
-valid cat acc 0.755, valid dog acc 0.735 valid flower acc 0.929
+**valid cat acc 0.755, valid dog acc 0.735 valid flower acc 0.929**
 
 4.Class Activation Map
 The response size of the feature map is mapped to the original image, allowing readers to understand the effect of the model more intuitively.
