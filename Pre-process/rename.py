@@ -3,7 +3,6 @@
 #@FileName: 批量图片文件重命名.py
 #@Software: PyCharm
 
-# -*- coding:utf8 -*-
 import os
 
 class BatchRename():
