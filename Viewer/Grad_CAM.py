@@ -19,11 +19,11 @@ def cam_show_img(img, feature_map, grads, out_dir):
 
     #self-attention层的输出为256*36
     feature_map = np.reshape(feature_map, (256, 6, 6))
-    cam = np.zeros(feature_map.shape[1:], dtype=np.float32)		# 4
-    grads = grads.reshape([grads.shape[0],-1])					# 5
-    weights = np.mean(grads, axis=1)							# 6
+    cam = np.zeros(feature_map.shape[1:], dtype=np.float32)		
+    grads = grads.reshape([grads.shape[0],-1])					
+    weights = np.mean(grads, axis=1)							
     for i, w in enumerate(weights):
-        cam += w * feature_map[i, :, :]							# 7
+        cam += w * feature_map[i, :, :]							
     cam = np.maximum(cam, 0)
     cam = cam / cam.max()
     cam = cv2.resize(cam, (W, H))
