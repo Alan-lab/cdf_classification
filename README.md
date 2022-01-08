@@ -70,7 +70,7 @@ python Viewer/Grad_CAM.py
 | catsdogsflowers_valid1 | 75.1 | 76.9 | 91.4 |
 | catsdogsflowers_valid2 | 75.5 | 73.5 | 92.9 |
 
-![image](https://user-images.githubusercontent.com/54443297/148637507-73533c27-3ad0-4a24-ab28-3676dacaac58.png)
+![fig3](https://user-images.githubusercontent.com/54443297/148637655-11019508-ceab-481e-9491-bb0b95002c4e.png)
 
 ## Acknowledgments
 This work is mainly supported by (https://courses.d2l.ai/zh-v2/) and CSDN.
