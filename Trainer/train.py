@@ -25,6 +25,7 @@ def opt_par(lr, num_epochs, batch_size):
        test_acc = test_acc + [result[2]]
        X = X + [num_epochs]
     draw(X,train_l,train_acc, test_acc)
+    
     X = ['batch_size']
     train_l, train_acc, test_acc=[], [], []
     for batch_size in range(16,256,16):
