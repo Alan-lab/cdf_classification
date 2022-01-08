@@ -40,7 +40,7 @@ def resnet_block(input_channels, num_channels, num_residuals,
 
 #@save
 class MultiHeadAttention(nn.Module):
-    """多头注意力"""
+    #多头注意力
     def __init__(self, key_size, query_size, value_size, num_hiddens,
                  num_heads, dropout, bias=False, **kwargs):
         super(MultiHeadAttention, self).__init__(**kwargs)
