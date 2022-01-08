@@ -47,15 +47,11 @@ model.pth will be extrated in the folder `./cdf_classification`.
 
 
 3.predict
-Prepare your valid dataset like this (https://github.com/Alan-lab/data/catsdogsflowers/valid).
+Prepare your valid dataset like this (https://github.com/Alan-lab/data/catsdogsflowers/valid1).
 ```bash
 python Predict/predict.py
 ```
 
-#The result of trained model in valid dataset
-```bash
-valid cat acc 0.755, valid dog acc 0.735 valid flower acc 0.929
-```
 
 4.Class Activation Map
 The response size of the feature map is mapped to the original image, allowing readers to understand the effect of the model more intuitively.
@@ -66,8 +62,19 @@ python Viewer/Grad_CAM.py
 
 5. More details can be found in [folder](https://github.com/Alan-lab/cdf_classification).
 
+
+## The Experimental Result
+| dataset | Cat-acc | Dog-acc | flower-acc |
+| :---: | :---: | :---: | :---: |
+| Dogcatflower_2_train | 96.2 | 88.7 | 93.6 |
+| Dogcatflower_2_test | 72.7 | 69.2 | 89.7 |
+| catsdogsflowers_valid1 | 75.1 | 76.9 | 91.4 |
+| catsdogsflowers_valid2 | 75.5 | 73.5 | 92.9 |
+
+
 ## Acknowledgments
 This work is mainly supported by (https://courses.d2l.ai/zh-v2/) and CSDN.
 
 ## Contributions
 If you have any questions/comments/bug reports, feel free to open a github issue or pull a request or e-mail to the author Lailanqing ([lailanqing_charlie@163.com](lailanqing_charlie@163.com)).
+
