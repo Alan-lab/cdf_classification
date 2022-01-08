@@ -8,7 +8,7 @@ def get_dataloader_workers():  #@save
     """使用4个进程来读取数据。"""
     return 4
 
-def load_valid_data(batch_size, resize=None):  # @save
+def load_valid_data(batch_size, resize=None):  
     # 下载/加载评估数据集，检验模型的实际效果。
     trans = [transforms.ToTensor()]
     if resize:
