@@ -85,6 +85,8 @@ Few results are shown as follows.
 ***Negative sample***
 ![fig4](https://user-images.githubusercontent.com/54443297/148638009-77de2573-8379-43e1-bb37-82d7ac598cf1.png)
 
+***Multi-attention***
+![show_attention](https://user-images.githubusercontent.com/54443297/148638388-3b087944-3b15-41bb-9a11-73caae9fbcbd.jpg)
 
 ## Acknowledgments
 This work is mainly supported by (https://courses.d2l.ai/zh-v2/) and CSDN.
