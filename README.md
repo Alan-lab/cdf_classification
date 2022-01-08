@@ -66,7 +66,7 @@ python Viewer/Grad_CAM.py
 Few results are shown as follows.
 
 1. Preformance
-2. 
+
 | dataset | Cat-acc | Dog-acc | flower-acc |
 | :---: | :---: | :---: | :---: |
 | Dogcatflower_2_train | 96.2 | 88.7 | 93.6 |
