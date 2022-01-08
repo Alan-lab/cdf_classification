@@ -1,11 +1,12 @@
-# cdf_att_classification
-classes = {0: 'cat', 1: 'dog', 2: 'flower'}
+## cdf_att_classification
+Classes = {0: 'cat', 1: 'dog', 2: 'flower'}
 
 In this project we use both Resnet and Self-attention layer for cdf-Classification.
 Specifically, For Resnet, we extract low level features from Convolutional Neural Network (CNN) trained on Dogcatflower_2 dataset(details show later).  
 We take inspiration from the Self-attention mechanism which is a prominent method in cv domain. 
 We also use Grad-CAM algorithm to Visualize the gradient of the back propagation of the pretrain model to understand this network.
 The code is released for academic research use only. For commercial use, please contact [lailanqing_charlie@163.com].
+
 
 ## Installation
 
@@ -42,8 +43,7 @@ python main.py
 ```
 model.pth will be extrated in the folder `./cdf_classification`. 
 
-**If av_test_acc < 0.75, model.pth will not save(d2l.train_ch6).**
-
+**If aver_test_acc < 0.75, model.pth will not save(d2l.train_ch6).**
 
 3.Predict
 
@@ -51,7 +51,6 @@ Prepare your valid dataset like this (https://github.com/Alan-lab/data/catsdogsf
 ```bash
 python Predict/predict.py
 ```
-
 
 4.Class Activation Map
 The response size of the feature map is mapped to the original image, allowing readers to understand the effect of the model more intuitively.
@@ -61,6 +60,7 @@ python Viewer/Grad_CAM.py
 ```
 
 5. More details can be found in [folder](https://github.com/Alan-lab/cdf_classification).
+
 
 ## The Experimental Result
 
@@ -76,11 +76,13 @@ python Viewer/Grad_CAM.py
 2.Visualization
 
 ***Postive sample***
+
 ![fig1](https://user-images.githubusercontent.com/54443297/148637872-d17d3438-239c-49b7-9ad8-61bb8e96cce9.png)
 ![fig2](https://user-images.githubusercontent.com/54443297/148637879-8e6861ce-12ff-48dd-83e4-5748acacff09.png)
 ![fig3](https://user-images.githubusercontent.com/54443297/148638695-b9fe29e9-8641-4b28-ba4d-7519311ffe34.png)
 
 ***Negative sample***
+
 ![fig4](https://user-images.githubusercontent.com/54443297/148638009-77de2573-8379-43e1-bb37-82d7ac598cf1.png)
 
 ***Multi-attention***
