@@ -33,7 +33,6 @@ key:oz7z
 
 
 ## Training New Models
-New models can be trained with the following commands.
 
 1. Prepare your own dataset like this (https://github.com/Alan-lab/data/Dogcatflower_2).
 
@@ -64,7 +63,6 @@ python Viewer/Grad_CAM.py
 5. More details can be found in [folder](https://github.com/Alan-lab/cdf_classification).
 
 ## The Experimental Result
-Few results are shown as follows.
 
 1. Preformance
 
