@@ -76,12 +76,12 @@ Few results are shown as follows.
 
 2.Visualization
 
-**postive sample**
+***Postive sample***
 ![fig1](https://user-images.githubusercontent.com/54443297/148637872-d17d3438-239c-49b7-9ad8-61bb8e96cce9.png)
 ![fig2](https://user-images.githubusercontent.com/54443297/148637879-8e6861ce-12ff-48dd-83e4-5748acacff09.png)
 ![fig3](https://user-images.githubusercontent.com/54443297/148637655-11019508-ceab-481e-9491-bb0b95002c4e.png)
 
-**negative sample**
+***Negative sample***
 ![fig4](https://user-images.githubusercontent.com/54443297/148638009-77de2573-8379-43e1-bb37-82d7ac598cf1.png)
 
 
